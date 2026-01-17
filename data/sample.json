@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "risk-01",
+      "name": "risk_01",
+      "category": "technical",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "risk-02",
+      "name": "risk_02",
+      "category": "market",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "risk-03",
+      "name": "risk_03",
+      "category": "ops",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "risk-04",
+      "name": "risk_04",
+      "category": "finance",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "risk-05",
+      "name": "risk_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "risk-06",
+      "name": "risk_06",
+      "category": "market",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "risk-07",
+      "name": "risk_07",
+      "category": "ops",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "risk-08",
+      "name": "risk_08",
+      "category": "finance",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "risk-09",
+      "name": "risk_09",
+      "category": "technical",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "risk-10",
+      "name": "risk_10",
+      "category": "market",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "risk-11",
+      "name": "risk_11",
+      "category": "ops",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "risk-12",
+      "name": "risk_12",
+      "category": "finance",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "risk-12",
+    "issue_count": 1
+  }
+}

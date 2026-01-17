@@ -1,0 +1,13 @@
+{
+  "project_title": "Risk Register Review",
+  "goal": "Score risks and highlight high exposure items.",
+  "entity_name": "risk",
+  "amount_label": "impact",
+  "score_label": "likelihood_score",
+  "categories": [
+    "technical",
+    "market",
+    "ops",
+    "finance"
+  ]
+}
